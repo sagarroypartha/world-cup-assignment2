@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+   }
+   main{
+    display: flex;
+    flex-direction: column;
+   align-items:center;
+}
+
+.container{
+    background-color: rgb(20, 19, 19);
+    padding: 30px;
+    border-radius: 20px;
+    width: 1321px;
+    height: 646px;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.top-banner-text{
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+   
+    
+}
+.banner-heading{
+    font-size: 80px;
+}
+.banner-para{
+    margin-bottom: 20px;
+   
+}
+.watch-button{
+    text-decoration: none;
+    background-color: #DD0000;
+  
+    padding: 10px 30px;
+   
+    border-radius: 3px;
+}
+.button{
+    margin-top: 40px;
+}
+.fa-greater-than{
+    margin-left: 20px;
+}
+
+
+
+.banner-image img{
+    width: 581px;
+    height: 613px;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+/*-----------
+ second section -------*/
+
+ .second-sec{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+ }
+ .left-box{
+    background-color: black;
+   
+    width: 312px;
+    height: 312px;
+    border-radius: 10px; 
+    display: grid;
+    grid-template-columns: repeat(3);
+   
+   
+ }
+ 
+ .up-match{
+    background-color: #DD0000;
+    color: white;
+    text-align: center;
+    
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 20px;
+   
+    width: 252px;
+    height: 64px;
+   
+    border-radius: 5px;
+ }
+.all-grp{
+    background-color: white;
+    text-align: center;
+   
+    margin-left: 25px;
+   
+    width: 252px;
+    height: 64px;
+   
+    border-radius: 5px;
+}
+.BlogT{
+    background-color:white;
+    color: black;
+    text-align: center;
+    
+   margin-left: 25px;
+   
+    width: 252px;
+    height: 64px;
+   
+    border-radius: 5px;
+}
+.thumnail-box{
+    width: 312px;
+    height: 242px;
+    margin: 5px 5px 5px 5px;
+   text-align: center;
+   justify-content: center    ;
+    border: 0.5px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.thumnail{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.vs{
+    padding: 10px 30px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    margin-left: 20px;
+}
+.foot{
+    background-color: #161616;
+   
+   color: white;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 444px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 100px;
+    width: 1320px;
+    height: 0px;
+}
+.foot-p{
+    display: flex;
+   
+    text-align: center;
+    justify-content: center;
+}
+.foot-text{
+    margin-left: 20px;
+}
